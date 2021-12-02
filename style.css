@@ -1,112 +1,117 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Open+Sans:wght@300&family=Titillium+Web:wght@700&display=swap');
 
-body {
-  background-color: #eeeeee;
-  font-family: "Noto Sans JP", sans-serif;
-  font-size: 17px;
-  font-weight: 300;
-  margin: 0 auto;
-}
 
-h1 {
-  color: #0f044c;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 32px;
-  font-weight: 600;
-  margin: 5px;
-}
-
-h2 {
-  color: #0f044c;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 22px;
-  font-weight: 900px;
-}
-
-img {
-  width: 100px;
-  border-radius: 20px;
-  box
-}
-
-p {
-  color: #0f044c;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 18px;
-  font-weight: 100;
-}
-
-.container {
-  background-color: white;
-  padding: 30px;
-  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
-  border-radius: 10px;
+.container{
+  margin: 40px auto;
+  width: 700px;
   text-align: center;
-  width: 600px;
-  margin: 20px auto;
 }
 
-.social_network {
-  background-color: white;
-  padding: 30px;
-  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
-  border-radius: 10px;
-  text-align: center;
-  width: 600px;
-  margin: 15px auto;
+body{
+  background-color:#EEEEEE;
+  color: #222831;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: normal;
+
 }
+
+h1,h2,h3{
+  color: #393E46;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 54px;
+  line-height: normal;
+}
+
+.card_title a{
+  background-color: #393E46;
+  color: #00ADB5;
+  text-decoration: none;
+  border-radius: 8px;
+  text-align: center;
+  padding: 8px;
+  margin: 16px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.card_title a:hover{
+  background-color: #00ADB5;
+  color: #393E46;
+}
+
+h4{
+  color: #00ADB5;
+  font-family: 'Comforter Brush', cursive;
+  font-size: 35px;
+  line-height: normal;
+}
+
+img{
+  border-radius: 50%;
+  height: 128px;
+}
+
+.card_title{
+  background-color: whitesmoke;
+  padding: 40px;
+  box-shadow: 0px 10px 10px rgb(0 173 181 / 35%);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.social_network{
+  background-color: whitesmoke;
+  padding: 40px;
+  box-shadow: 0px 10px 10px rgb(0 173 181  / 35%);
+  border-radius: 4px;
+  margin: 20px 0px;
+}
+.social_network h4{
+  margin: 10px;
+}
+
+.social_network a{
+  color: #00ADB5;
+  font-size: 40px;
+}
+
+.social_network a:hover{
+  color: #393E46;
+  font-size: 40px;
+}
+
+.social_network li{
+  list-style: none;
+  display: inline-block;
+  padding: 0px 20px;
+  width: 20px;
+}
+
+.social_network ul{
+  list-style: none;
+  padding-left: 0px;
+}
+
+/*https://colorhunt.co/palette/222831393e4600adb5eeeeee*/
 
 @media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
+  /* Pour un écran < 960px, cette classe CSS s'applique */
   .container {
     width: 700px;
   }
-  .social_network {
-    width: 700px;
-  }
 }
+
 @media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
+  /* Pour un écran < 720px, cette classe CSS s'applique */
   .container {
     width: 500px;
   }
-  .social_network {
-   width: 500px;
-  }
 }
+
 @media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
+  /* Pour un écran < 540px, cette classe CSS s'applique */
   .container {
     width: 300px;
   }
-  .social_network {
-    width: 300px;
-  }
-}
-
-i {
-  font-size: 20px;
-  text-align: center;
-}
-
-a {
-  background-color: #0f044c;
-  color: white;
-  padding: 6px 20px;
-  margin: 10px;
-  border-radius: 30px;
-  text-decoration: none;
-}
-
-a:hover {
-  background-color: blue;
-}
-
-.list_inline {
-  list-style: none;
-  padding-left: 0;
-}
-
-.list_inline li {
-  display: inline-block;
 }
